@@ -1,0 +1,20 @@
+Cotação de Moedas
+
+Este projeto é uma aplicação em Go que busca a cotação atual de diferentes moedas, como Dólar, Euro, Ouro e Bitcoin do DolarHoje.com. Criei para estudos de Go.
+
+Pré-requisitos
+
+Antes de iniciar, certifique-se de que você tem o Go instalado em sua máquina. Para verificar, execute `go version` no terminal.
+
+Uso
+
+Para executar o programa, clone esse repo, navegue até o diretório do projeto e execute:
+
+go run main.go
+
+Isso iniciará a aplicação, que buscará e exibirá as cotações atuais das moedas especificadas.
+
+Funcionalidades
+
+- Busca a cotação do Dólar, Euro, Ouro e Bitcoin.
+- Exibe as cotações em formato legível, com os valores convertidos para Real (R$).
